@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "GetRolesForUser";
+}
+
+<h1>GetRolesForUser</h1>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <p>
+        UserName: @Html.DropDownList("UserName", (IEnumerable<SelectListItem>)ViewData["Users"], "Select User")
+    </p>
+    <input type="submit" , value="Get" />
+}
+
+

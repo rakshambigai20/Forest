@@ -1,0 +1,14 @@
+C:\Users\balar\source\repos\Forest.Data\bin\Debug\net8.0\Forest.Data.deps.json
+C:\Users\balar\source\repos\Forest.Data\bin\Debug\net8.0\Forest.Data.runtimeconfig.json
+C:\Users\balar\source\repos\Forest.Data\bin\Debug\net8.0\Forest.Data.dll
+C:\Users\balar\source\repos\Forest.Data\bin\Debug\net8.0\Forest.Data.pdb
+C:\Users\balar\source\repos\Forest.Data\obj\Debug\net8.0\Forest.Data.csproj.AssemblyReference.cache
+C:\Users\balar\source\repos\Forest.Data\obj\Debug\net8.0\Forest.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balar\source\repos\Forest.Data\obj\Debug\net8.0\Forest.Data.AssemblyInfoInputs.cache
+C:\Users\balar\source\repos\Forest.Data\obj\Debug\net8.0\Forest.Data.AssemblyInfo.cs
+C:\Users\balar\source\repos\Forest.Data\obj\Debug\net8.0\Forest.Data.csproj.CoreCompileInputs.cache
+C:\Users\balar\source\repos\Forest.Data\obj\Debug\net8.0\Forest.Data.dll
+C:\Users\balar\source\repos\Forest.Data\obj\Debug\net8.0\refint\Forest.Data.dll
+C:\Users\balar\source\repos\Forest.Data\obj\Debug\net8.0\Forest.Data.pdb
+C:\Users\balar\source\repos\Forest.Data\obj\Debug\net8.0\Forest.Data.genruntimeconfig.cache
+C:\Users\balar\source\repos\Forest.Data\obj\Debug\net8.0\ref\Forest.Data.dll

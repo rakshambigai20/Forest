@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "UserRoles";
+}
+
+<h1>User Roles for @ViewData["UserName"]</h1>
+<div>
+    <ol>
+        @foreach(string role in Model)
+        {
+            <li>@role</li>
+        }
+    </ol>
+</div>
+

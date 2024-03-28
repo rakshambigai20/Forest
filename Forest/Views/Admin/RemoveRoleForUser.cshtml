@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "RemoveRoleForUser";
+}
+
+<h1>RemoveRoleFromUser</h1>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <p>
+        User UserName: @Html.DropDownList("UserName", (IEnumerable<SelectListItem>)ViewData["Users"], "Select User")
+        Role: @Html.DropDownList("RoleName", (IEnumerable<SelectListItem>)ViewData["Roles"], "Select Role")
+    </p>
+    <input type="submit" , value="Remove" />
+    @Html.ActionLink("Check User Roles", "GetRolesForUser")
+}
+

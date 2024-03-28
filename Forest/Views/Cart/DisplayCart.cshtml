@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Forest.Services.Models.CartMusic>
+<h1>Cart</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model  => model.Music.Title)</th>
+            <th>@Html.DisplayNameFor(model => model.Music.Price)</th>
+            <th>@Html.DisplayNameFor(model  => model.Music.Image)</th>
+            <th>@Html.DisplayNameFor(model => model.Quantity)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Music.Title)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Music.Price)</td>
+                    <td>@{
+                            string imagePath = "/Images/Music/ " + item.Music.Image;
+                        }
+                        <img src="@imagePath" alt="No Image" width="30" height="30" />
+                    </td>
+                    <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
+                    <td>
+                        @{
+                            var data = new Dictionary<string, string>
+                        {
+                            {"musicId", item.Music.Id.ToString()},
+                            {"toDo", "+"}
+                        };
+                        }
+                        <a asp-action="UpdateCart" asp-all-route-data="data">
+                            <img src="/Images/Action/increment.JPG" alt="Increase"
+                            width="20" height="20" />
+                        </a> |
+                        @{
+                            data = new Dictionary<string, string>
+                        {
+                            {"musicId", item.Music.Id.ToString()},
+                            {"toDo", "-"}
+                        };
+                        }
+                        <a asp-action="UpdateCart" asp-all-route-data="data">
+                            <img src="/Images/Action/decrement.JPG" alt="Decrease"
+                            width="20" height="20" />
+                        </a> |
+                        @{
+                            data = new Dictionary<string, string>()
+                        {
+                            {"musicId", item.Music.Id.ToString()},
+                            {"toDo", "x"}
+                        };
+                        }
+                        <a asp-action="UpdateCart" asp-all-route-data="data">
+                        <img src="~/Images//Action/remove.JPG" alt="Remove"
+                        width="20" height="20" />
+                    </a>
+                </td>
+            </tr>
+            }
+        }
+        else
+        {
+            <p>Your Cart is empty</p>
+        }
+    </tbody>
+</table>
+<a asp-action="GetGenres" asp-controller="Genre">
+    <img src="/Images/Action/continue.JPG" alt="Continue" width="120" height="40" />
+</a> |
+<a asp-action="CheckOut">
+    <img src="/Images/Action/checkout.JPG" alt="Check Out" width="40" height="40" />
+</a>

@@ -1,0 +1,17 @@
+C:\Users\balar\source\repos\Forest.Services\obj\Debug\net8.0\Forest.Services.csproj.AssemblyReference.cache
+C:\Users\balar\source\repos\Forest.Services\obj\Debug\net8.0\Forest.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balar\source\repos\Forest.Services\obj\Debug\net8.0\Forest.Services.AssemblyInfoInputs.cache
+C:\Users\balar\source\repos\Forest.Services\obj\Debug\net8.0\Forest.Services.AssemblyInfo.cs
+C:\Users\balar\source\repos\Forest.Services\obj\Debug\net8.0\Forest.Services.csproj.CoreCompileInputs.cache
+C:\Users\balar\source\repos\Forest.Services\bin\Debug\net8.0\Forest.Services.deps.json
+C:\Users\balar\source\repos\Forest.Services\bin\Debug\net8.0\Forest.Services.runtimeconfig.json
+C:\Users\balar\source\repos\Forest.Services\bin\Debug\net8.0\Forest.Services.dll
+C:\Users\balar\source\repos\Forest.Services\bin\Debug\net8.0\Forest.Services.pdb
+C:\Users\balar\source\repos\Forest.Services\bin\Debug\net8.0\Forest.Data.dll
+C:\Users\balar\source\repos\Forest.Services\bin\Debug\net8.0\Forest.Data.pdb
+C:\Users\balar\source\repos\Forest.Services\obj\Debug\net8.0\Forest.Services.csproj.CopyComplete
+C:\Users\balar\source\repos\Forest.Services\obj\Debug\net8.0\Forest.Services.dll
+C:\Users\balar\source\repos\Forest.Services\obj\Debug\net8.0\refint\Forest.Services.dll
+C:\Users\balar\source\repos\Forest.Services\obj\Debug\net8.0\Forest.Services.pdb
+C:\Users\balar\source\repos\Forest.Services\obj\Debug\net8.0\Forest.Services.genruntimeconfig.cache
+C:\Users\balar\source\repos\Forest.Services\obj\Debug\net8.0\ref\Forest.Services.dll

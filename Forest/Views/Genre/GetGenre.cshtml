@@ -1,0 +1,33 @@
+﻿@model Forest.Data.Models.Domain.Genre
+
+
+@{
+    ViewData["Title"] = "GetGenre";
+}
+
+<h1>GetGenre</h1>
+
+<div>
+    <h4>Genre</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+<p>
+    <h2>Albums in @Model.Name</h2>
+
+    
+
+</p>
+@if(Model.Musics.Count != 0)
+    @Html.Partial("~/Views/Genre/Musics.cshtml", Model.Musics);

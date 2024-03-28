@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "adminDashboard";
+}
+
+<h1>Admin Dashboard</h1>
+<h2>Hello Admin. Welcome to Forest! </h2>
+<ol>
+    <li>@Html.ActionLink("Add a role", "AddRole")</li>
+
+    <li>@Html.ActionLink("Get roles", "GetRoles")</li>
+
+    <li>@Html.ActionLink("Get users", "GetUsers")</li>
+
+    <li>@Html.ActionLink("Check User Roles", "GetRolesForUser")</li>
+
+    <li>@Html.ActionLink("Manage roles for users", "ManageUserRoles")</li>
+
+    <li>@Html.ActionLink("Remove a role for user", "RemoveRoleForUser")</li>
+</ol>
+
